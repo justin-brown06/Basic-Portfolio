@@ -1,0 +1,17 @@
+h1{
+    float: left;
+    width: 50%;
+}
+nav{
+    float: right;
+    width: 50%;
+    margin-top: 20px;
+}
+#main-bio{
+    float: left;
+}
+p {
+    clear: both;
+    width: 50%;
+    margin-left: 25px;
+}

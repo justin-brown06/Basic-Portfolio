@@ -23,6 +23,7 @@ body{
 #logo{
     margin-left: 20px;
     font-size: 32px;
+    text-decoration: none;
 }
 nav{
     color: #777777;
@@ -133,6 +134,12 @@ input[type=submit]:hover {
     position: relative;
     margin: 25px;
     width: 30%;
+}
+img:hover{
+    border-style: solid;
+    border-color: bisque;
+    border-width: 3px;
+
 }
 .clearfix::after {
     content: "";

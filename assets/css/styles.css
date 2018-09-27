@@ -8,6 +8,7 @@ body{
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     background-color: bisque;
     position: relative;
+    margin: auto;
 }
 #masthead{
     width: 960px;
@@ -90,4 +91,14 @@ p {
     color: #444444;
     border-bottom: 2px double;
     border-color: #4aaaa5;
+}
+#form{
+    margin-top: 50px;
+    display: inline-block;
+    background-color: #4aaaa5;
+    border-style: solid;
+    border-color: #777777;
+    margin-bottom: 50px;
+    resize: vertical;
+    width: 50%;
 }

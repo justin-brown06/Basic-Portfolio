@@ -96,8 +96,8 @@ p {
 }
 #form{
     position: relative;
-    margin-left: 240px;
-    margin-right: 240px;
+    margin-left: 120px;
+    margin-right: 120px;
     padding: 20px;
     margin-top: 50px;
     display: inline-block;
@@ -106,7 +106,7 @@ p {
     border-color: #777777;
     margin-bottom: 50px;
     resize: vertical;
-    width: 50%;
+    width: 75%;
 }
 input[type=text], select, textarea {
     width: 100%;
@@ -132,8 +132,11 @@ input[type=submit]:hover {
 }
 .work{
     position: relative;
-    margin: 25px;
-    width: 30%;
+    margin-left: 90px;
+    margin-top: 20px;
+    width: 33%;
+    color: #444444;
+    display: inline-block;
 }
 img:hover{
     border-style: solid;
@@ -145,4 +148,14 @@ img:hover{
     content: "";
     clear: both;
     display: table;
+}
+.page-header{
+    color: #444444;
+    font-size: 32px;
+    padding: 20px;
+    text-decoration: underline;
+}
+.img-portfolio{
+    margin: auto;
+
 }
